@@ -1,0 +1,416 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6308046,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Sort scenarios",
+        "description": "",
+        "id": "sort-items;sort-scenarios;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Logged in as user: standard_user"
+            ],
+            "result": {
+              "duration": 3168324290,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in to application with user \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.userLogsIn(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Order selected: az"
+            ],
+            "result": {
+              "duration": 10078765154,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sort items in \"az\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "az",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.userSortItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Expected order: Name (A to Z) -- Actual order: NAME (Z TO A)"
+            ],
+            "result": {
+              "duration": 28782407,
+              "error_message": "java.lang.AssertionError: Failed in sorting products\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat stepDefs.steps.userVerifiesSort(steps.java:282)\n\tat ✽.Then user verifies items sorted in \"az\"(Sorting.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user verifies items sorted in \"az\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "az",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.userVerifiesSort(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sort"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 37998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Sort scenarios",
+        "description": "",
+        "id": "sort-items;sort-scenarios;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Logged in as user: standard_user"
+            ],
+            "result": {
+              "duration": 1985805614,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in to application with user \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.userLogsIn(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Order selected: za"
+            ],
+            "result": {
+              "duration": 5079444625,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sort items in \"za\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "za",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.userSortItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Expected order: Name (Z to A) -- Actual order: NAME (Z TO A)"
+            ],
+            "result": {
+              "duration": 25019299,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies items sorted in \"za\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "za",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.userVerifiesSort(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sort"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 76980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Sort scenarios",
+        "description": "",
+        "id": "sort-items;sort-scenarios;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Logged in as user: standard_user"
+            ],
+            "result": {
+              "duration": 1924978744,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in to application with user \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.userLogsIn(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Order selected: hilo"
+            ],
+            "result": {
+              "duration": 10076382696,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sort items in \"hilo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hilo",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.userSortItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Expected order: Price (high to low) -- Actual order: PRICE (LOW TO HIGH)"
+            ],
+            "result": {
+              "duration": 24677200,
+              "error_message": "java.lang.AssertionError: Failed in sorting products\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat stepDefs.steps.userVerifiesSort(steps.java:282)\n\tat ✽.Then user verifies items sorted in \"hilo\"(Sorting.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user verifies items sorted in \"hilo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hilo",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.userVerifiesSort(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sort"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Sort scenarios",
+        "description": "",
+        "id": "sort-items;sort-scenarios;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Logged in as user: standard_user"
+            ],
+            "result": {
+              "duration": 1910355127,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in to application with user \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.userLogsIn(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Order selected: lohi"
+            ],
+            "result": {
+              "duration": 5072988149,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sort items in \"lohi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lohi",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.userSortItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Expected order: Price (low to high) -- Actual order: PRICE (LOW TO HIGH)"
+            ],
+            "result": {
+              "duration": 24476327,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies items sorted in \"lohi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lohi",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.userVerifiesSort(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sort"
+          }
+        ]
+      }
+    ],
+    "name": "Sort Items",
+    "description": "",
+    "id": "sort-items",
+    "keyword": "Feature",
+    "uri": "Sorting.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sort"
+      }
+    ]
+  }
+]
